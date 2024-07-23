@@ -28,7 +28,7 @@ import HotelBookingDetails from "./component/MyTrips/HotelBookingDetails";
 import Admin from "./component/Admin/Admin";
 
 function App() {
-  let apiBaseUrl = "https://make-my-trip-clone-projectbackend-ruturajkulkarni1010s-projects.vercel.app//api/";
+  let apiBaseUrl = "https://make-my-trip-clone-backend-psi.vercel.app/api/";
   const [to, setTo] = useState("");
   const [from, setFrom] = useState("");
   const [departureDate, setDepartureDate] = useState("");
