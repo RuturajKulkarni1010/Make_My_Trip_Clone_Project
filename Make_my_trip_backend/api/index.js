@@ -17,7 +17,7 @@ app.use(express.json({ extended: false }));
 
 //app.use(cors());
 app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your React app's domain
+    origin: 'https://make-my-trip-clone-projectfronten-ruturajkulkarni1010s-projects.vercel.app', // Replace with your React app's domain
     credentials: true // Allow cookies for authenticated requests (if applicable)
   }));
 
