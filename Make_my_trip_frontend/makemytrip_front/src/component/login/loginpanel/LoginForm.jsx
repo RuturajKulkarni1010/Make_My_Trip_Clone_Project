@@ -138,7 +138,7 @@ export const LoginForm = () => {
     e.preventDefault();
 
     axios
-      .post("https://make-my-trip-clone-projectbackend-ruturajkulkarni1010s-projects.vercel.app//api/auth/Login", {
+      .post("https://make-my-trip-clone-backend-psi.vercel.app/api/auth/Login", {
         email: value.email,
         password: value.password,
       })
